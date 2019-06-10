@@ -1,0 +1,228 @@
+/* logo */
+
+nav.navbar a.navbar-brand>img {
+    margin-top: -10px;
+}
+
+/* 轮播图 */
+
+#banner {
+    margin-top: 50px;
+    width: 100%;
+}
+
+#banner div img {
+    width: 100%;
+}
+
+/* 公司简介 */
+
+#layabox-brief {
+    margin-top: 95px;
+    margin-bottom: 68px;
+}
+
+#layabox-brief h1 {
+    font-family: '微软雅黑';
+    font-size: 36px;
+    color: #2a2a2a;
+}
+
+#layabox-brief h2 {
+    font-family: '微软雅黑';
+    font-size: 21px;
+    line-height: 30px;
+    color: #2a2a2a;
+}
+
+#layabox-brief .text h3 {
+    font-family: '微软雅黑';
+    font-size: 14px;
+    line-height: 30px;
+    color: #2a2a2a;
+}
+
+#layabox-brief .img {
+    padding-top: 135px;
+}
+
+/* 人才招聘 */
+
+#layabox-invite {
+    padding-top: 114px;
+    padding-bottom: 80px;
+    background-color: #8cc11f;
+}
+
+#layabox-invite h1 {
+    font-family: '微软雅黑';
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 28px;
+    margin-top: 0;
+}
+
+#layabox-invite h2 {
+    font-family: '微软雅黑';
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+}
+
+#layabox-invite .right {
+    padding-top: 23px;
+}
+
+#layabox-invite .right button {
+    font-family: Arial;
+    font-size: 24px;
+    line-height: 30px;
+    color: #8cc11f;
+}
+
+/* 详细招聘 */
+
+#layabox-detail {
+    padding-top: 112px;
+    /* padding-bottom: 110px; */
+}
+
+#layabox-detail ul li {
+    border-bottom: 1px solid #d2d2d2;
+    text-indent: 22px;
+    padding-bottom: 50px;
+}
+
+#layabox-detail ul li:last-child {
+    border: none;
+}
+
+#layabox-detail ul li h1 {
+    font-family: '微软雅黑';
+    font-size: 26px;
+    line-height: 30px;
+    color: #8cc11f;
+    margin-top: 60px;
+}
+
+#layabox-detail ul li h2 {
+    font-family: '微软雅黑';
+    font-size: 18px;
+    line-height: 30px;
+    color: #2a2a2a;
+}
+
+#layabox-detail ul li h3 {
+    font-family: '微软雅黑';
+    font-size: 14px;
+    line-height: 30px;
+    color: #2a2a2a;
+    text-indent: 42px;
+}
+
+/* 联系我们 */
+
+#layabox-relation {
+    padding-top: 42px;
+    padding-bottom: 62px;
+    background-color: #f4f4f4;
+}
+
+#layabox-relation .relation .img {
+    border: 1px solid #e3e3e3;
+    background-color: #fff;
+    width: 467px;
+    height: 101px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+#layabox-relation .relation .img img {
+    width: 72px;
+    height: 72px;
+    margin-top: 10px;
+}
+
+#layabox-relation .relation .img p {
+    font-family: '微软雅黑';
+    font-size: 16px;
+    line-height: 90px;
+    color: #2a2a2a;
+    margin-left: 9px;
+}
+
+/* 页脚 */
+
+#footer {
+    background-color: #3b3b3b;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+#footer .addr ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    padding-left: 0;
+}
+
+#footer .addr ul>li {
+    margin-right: 20px;
+}
+
+#footer .addr a:hover {
+    text-decoration: none;
+    color: #ccc;
+}
+
+#footer .contact {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#footer .contact .mail, #footer .contact .wechat, #footer .contact .qq {
+    width: 40px;
+    height: 40px;
+    background-color: aqua;
+    margin-right: 20px;
+    border-radius: 50%;
+    background-color: #eee;
+    background-image: url(../../image/footer.png);
+    background-repeat: no-repeat;
+}
+
+#footer .contact .mail {
+    background-position: left 0;
+}
+
+#footer .contact .wechat {
+    background-position: 50% 0;
+    position: relative;
+}
+
+#footer .contact .wechat img {
+    position: absolute;
+    left: -49px;
+    top: -150px;
+    display: none;
+}
+
+#footer .contact .wechat:hover>img {
+    display: block;
+}
+
+#footer .contact .qq {
+    background-position: right 0;
+}
+
+#footer .contact .qq img {
+    position: absolute;
+    top: -150px;
+    left: 86px;
+    display: none;
+}
+
+#footer .contact .qq:hover>img {
+    display: block;
+}

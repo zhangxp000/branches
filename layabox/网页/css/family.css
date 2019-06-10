@@ -1,0 +1,248 @@
+/* logo */
+
+nav.navbar a.navbar-brand>img {
+    margin-top: -10px;
+}
+
+/* Laya-Flash */
+
+#laya-flash {
+    padding-top: 110px;
+    padding-bottom: 60px;
+    background-color: #8bc01f;
+}
+
+#laya-flash .flash-body h1 {
+    font-family: 'Arial';
+    font-size: 48px;
+    color: #fff;
+}
+
+#laya-flash .flash-body h1 span {
+    display: inline-block;
+    width: 55px;
+    height: 53px;
+    background-color: #fff;
+    color: #8bc01f;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+#laya-flash .flash-body h2 {
+    font-family: '微软雅黑';
+    font-size: 24px;
+    color: #fff;
+    text-indent: 10px;
+}
+
+#laya-flash .flash-body h3 {
+    margin-top: 58px;
+}
+
+#laya-flash .flash-body h4 {
+    margin-top: 26px;
+    margin-bottom: 20px;
+}
+
+#laya-flash .flash-body h3, #laya-flash .flash-body h4, #laya-flash .flash-body h5 {
+    font-family: '微软雅黑';
+    font-size: 14px;
+    color: #fff;
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+#laya-flash .flash-body button {
+    color: #8bc01f;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/* LayaPlayer */
+
+#laya-player {
+    padding-top: 72px;
+    padding-bottom: 58px;
+    background-color: #3393df;
+}
+
+#laya-player .content {
+    padding: 0;
+}
+
+#laya-player .content-right img {
+    margin-top: 160px;
+    /* padding-left: 75px; */
+}
+
+/* #laya-player .content-left img {
+    padding-right: 75px;
+    padding-left: 58px;
+} */
+
+#laya-player h1 {
+    font-family: 'Arial';
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#laya-player h1 span {
+    display: inline-block;
+    width: 55px;
+    height: 53px;
+    background-color: #fff;
+    color: #8bc01f;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+#laya-player .content-center {
+    padding-left: 66px;
+}
+
+#laya-player .content-center h1 {
+    font-family: '微软雅黑';
+    font-size: 24px;
+    color: #fff;
+}
+
+#laya-player .content-center h2 {
+    font-family: '微软雅黑';
+    font-size: 14px;
+    line-height: 30px;
+    color: #fff;
+}
+
+/* LayaAir */
+/* LayaStore */
+
+#laya-air, #laya-store {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+#laya-store {
+    background-color: #f7f7f7;
+    padding-right: 50px;
+}
+
+#laya-air h1, #laya-store h1 {
+    font-size: 40px;
+    color: #3393df;
+}
+
+#laya-air h1 span, #laya-store h1 span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #3393df;
+    color: #fff;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+#laya-air h2, #laya-store h2 {
+    font-family: '微软雅黑';
+    font-size: 18px;
+    color: #5d5d5d;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+#laya-air h3, #laya-stroe h3 {
+    font-family: '微软雅黑';
+    font-size: 18px;
+    color: #3393df;
+}
+
+#laya-air h3 p, #laya-store h3 p {
+    font-family: '微软雅黑';
+    font-size: 14px;
+    color: #5d5d5d;
+    text-indent: 25px;
+    margin-top: 20px;
+    margin-bottom: 38px;
+    line-height: 22px;
+    height: 50px;
+}
+
+#laya-air img, #laya-store img {
+    width: 141px;
+    height: 141px;   
+}
+
+/* 页脚 */
+
+#footer {
+    background-color: #3b3b3b;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+#footer .addr ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    padding-left: 0;
+}
+
+#footer .addr ul>li {
+    margin-right: 20px;
+}
+
+#footer .addr a:hover {
+    text-decoration: none;
+    color: #ccc;
+}
+
+#footer .contact {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#footer .contact .mail, #footer .contact .wechat, #footer .contact .qq {
+    width: 40px;
+    height: 40px;
+    background-color: aqua;
+    margin-right: 20px;
+    border-radius: 50%;
+    background-color: #eee;
+    background-image: url(../../image/footer.png);
+    background-repeat: no-repeat;
+}
+
+#footer .contact .mail {
+    background-position: left 0;
+}
+
+#footer .contact .wechat {
+    background-position: 50% 0;
+    position: relative;
+}
+
+#footer .contact .wechat img {
+    position: absolute;
+    left: -49px;
+    top: -150px;
+    display: none;
+}
+
+#footer .contact .wechat:hover>img {
+    display: block;
+}
+
+#footer .contact .qq {
+    background-position: right 0;
+}
+
+#footer .contact .qq img {
+    position: absolute;
+    top: -150px;
+    left: 86px;
+    display: none;
+}
+
+#footer .contact .qq:hover>img {
+    display: block;
+}
